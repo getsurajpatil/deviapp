@@ -1,0 +1,103 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background = "@drawable/planebg">
+    
+    <LinearLayout  android:layout_gravity="center" android:gravity="center_vertical"  android:orientation="vertical"  android:layout_width="fill_parent" android:layout_height="fill_parent"  android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_marginTop="30dp" android:layout_marginBottom="30dp">
+        
+    
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#7B4302"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_back"
+        android:ems="10"
+       
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/text_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textColor="#7B4302"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText_city"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_back"
+        android:ems="10"
+      
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="5dp" />
+    
+   <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textColor="#7B4302"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText_phno"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_back"
+        android:ems="10"
+     
+        android:inputType="phone"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Mail"
+        android:textColor="#7B4302"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_back"
+        android:ems="10"
+     
+        android:inputType="textEmailAddress"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="5dp" />
+    
+     <Button
+        android:id="@+id/button_prev"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Register"
+        android:background="@drawable/tab_indicatorstyle" />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:id="@+id/check_pooja"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:focusable="false"
+        android:textColor="#7B4302" 
+         android:button="@drawable/checkbox"/>
+
+      <!--   <TextView
+            android:id="@+id/text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="view"
+            android:textColor="#0B0B3B"
+            android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+</LinearLayout>
